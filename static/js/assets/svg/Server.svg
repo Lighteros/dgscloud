@@ -1,0 +1,44 @@
+var _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgServer(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 49,
+    height: 44,
+    viewBox: "0 0 49 44",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M40.1667 22C42.2442 22 44.2366 21.1703 45.7057 19.6935C47.1747 18.2166 48 16.2136 48 14.125V8.875C48 6.78642 47.1747 4.78338 45.7057 3.30653C44.2366 1.82969 42.2442 1 40.1667 1H8.83333C6.7558 1 4.76337 1.82969 3.29433 3.30653C1.8253 4.78338 1 6.78642 1 8.875V14.125C1 16.2136 1.8253 18.2166 3.29433 19.6935C4.76337 21.1703 6.7558 22 8.83333 22M40.1667 22H8.83333M40.1667 22C42.2442 22 44.2366 22.8297 45.7057 24.3065C47.1747 25.7834 48 27.7864 48 29.875V35.125C48 37.2136 47.1747 39.2166 45.7057 40.6935C44.2366 42.1703 42.2442 43 40.1667 43H8.83333C6.7558 43 4.76337 42.1703 3.29433 40.6935C1.8253 39.2166 1 37.2136 1 35.125V29.875C1 27.7864 1.8253 25.7834 3.29433 24.3065C4.76337 22.8297 6.7558 22 8.83333 22M11.4444 11.5V11.5263M11.4444 32.5V32.5263M21.8889 11.5H37.5556M21.8889 32.5H37.5556",
+    stroke: "url(#paint0_linear_507_27)",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_507_27",
+    x1: 24.5,
+    y1: 1,
+    x2: 24.5,
+    y2: 43,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#00E0FF",
+    stopOpacity: 0.7
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#00E0FF",
+    stopOpacity: 0.05
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgServer);
+export default __webpack_public_path__ + "static/media/Server.8856eaf10d7d045a88501a6255f10282.svg";
+export { ForwardRef as ReactComponent };

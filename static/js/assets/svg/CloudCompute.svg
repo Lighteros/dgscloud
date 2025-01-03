@@ -1,0 +1,92 @@
+var _path, _path2, _path3, _path4, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCloudCompute(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 47,
+    height: 47,
+    viewBox: "0 0 47 47",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M6.16688 25.1074H14.4406V44.7968C14.4406 46.0113 15.4292 47 16.6437 47H30.3581C31.5726 47 32.5613 46.0113 32.5613 44.7968V25.1074H37.9011C42.9178 25.1074 47 21.0215 47 15.9983C47 10.9807 42.9178 6.89941 37.9011 6.89941C37.1411 6.89941 36.3892 6.99491 35.6557 7.18307C34.1374 2.90807 30.0864 0 25.4837 0C21.0756 0 17.2 2.61071 15.5275 6.59744C14.6499 6.24861 13.7218 6.07233 12.7561 6.07233C8.84276 6.07233 5.61246 9.04565 5.21223 12.8488C2.26741 13.3133 0 15.879 0 18.9404C0 22.3406 2.76679 25.1074 6.16688 25.1074ZM30.6812 44.7968C30.6812 44.9749 30.5362 45.12 30.3581 45.12H16.6437C16.4656 45.12 16.3206 44.9749 16.3206 44.7968V17.3606C16.3206 17.1825 16.4656 17.0375 16.6437 17.0375H30.3581C30.5362 17.0375 30.6812 17.1825 30.6812 17.3606V44.7968ZM6.12839 14.6545C6.64425 14.6489 7.05921 14.2303 7.05921 13.7145C7.05921 13.6795 7.05549 13.6337 7.05002 13.5878C7.08305 10.4749 9.62953 7.95233 12.7561 7.95233C13.7622 7.95233 14.7141 8.20757 15.5862 8.70964C15.834 8.85377 16.1342 8.87397 16.3995 8.77023C16.6657 8.66561 16.8695 8.4453 16.954 8.17177C18.1115 4.40804 21.5402 1.88001 25.4837 1.88001C29.5595 1.88001 33.113 4.64213 34.1236 8.59861C34.1897 8.85749 34.3633 9.07591 34.601 9.19984C34.8378 9.32195 35.115 9.3385 35.3675 9.24482C36.1827 8.9355 37.0345 8.77941 37.9011 8.77941C41.8814 8.77941 45.12 12.018 45.12 15.9983C45.12 19.9841 41.8814 23.2273 37.9011 23.2273H32.5613V17.3606C32.5613 16.1461 31.5726 15.1575 30.3581 15.1575H16.6437C15.4292 15.1575 14.4406 16.1461 14.4406 17.3606V23.2273H6.16688C3.80317 23.2273 1.88001 21.3042 1.88001 18.9404C1.88001 16.6005 3.78567 14.6774 6.12839 14.6545Z",
+    fill: "url(#paint0_linear_557_591)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M28.0353 19H18.9647C18.4315 19 18 19.4473 18 20C18 20.5527 18.4315 21 18.9647 21H28.0353C28.5685 21 29 20.5527 29 20C29 19.4473 28.5685 19 28.0353 19Z",
+    fill: "url(#paint1_linear_557_591)"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M28.0353 23H18.9647C18.4315 23 18 23.4473 18 24C18 24.5527 18.4315 25 18.9647 25H28.0353C28.5685 25 29 24.5527 29 24C29 23.4473 28.5685 23 28.0353 23Z",
+    fill: "url(#paint2_linear_557_591)"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M24 38C22.3454 38 21 39.3454 21 41C21 42.6546 22.3454 44 24 44C25.6546 44 27 42.6546 27 41C27 39.3454 25.6546 38 24 38ZM24 42.3158C23.2747 42.3158 22.6842 41.7253 22.6842 41C22.6842 40.2746 23.2747 39.6842 24 39.6842C24.7254 39.6842 25.3158 40.2746 25.3158 41C25.3158 41.7253 24.7254 42.3158 24 42.3158Z",
+    fill: "url(#paint3_linear_557_591)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_557_591",
+    x1: 23.5,
+    y1: 0,
+    x2: 23.5,
+    y2: 47,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#00E0FF",
+    stopOpacity: 0.5
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#00E0FF",
+    stopOpacity: 0.05
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_557_591",
+    x1: 23.5,
+    y1: 0,
+    x2: 23.5,
+    y2: 47,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#00E0FF",
+    stopOpacity: 0.5
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#00E0FF",
+    stopOpacity: 0.05
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint2_linear_557_591",
+    x1: 23.5,
+    y1: 0,
+    x2: 23.5,
+    y2: 47,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#00E0FF",
+    stopOpacity: 0.5
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#00E0FF",
+    stopOpacity: 0.05
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint3_linear_557_591",
+    x1: 23.5,
+    y1: 0,
+    x2: 23.5,
+    y2: 47,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#00E0FF",
+    stopOpacity: 0.5
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#00E0FF",
+    stopOpacity: 0.05
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCloudCompute);
+export default __webpack_public_path__ + "static/media/CloudCompute.20a6b92636cab09471d99547e339b250.svg";
+export { ForwardRef as ReactComponent };

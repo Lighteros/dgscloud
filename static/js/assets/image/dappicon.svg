@@ -1,0 +1,96 @@
+var _g, _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgDappicon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 115,
+    height: 50,
+    viewBox: "0 0 115 50",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    filter: "url(#filter0_b_806_552)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 2,
+    y: 2,
+    width: 111,
+    height: 46,
+    rx: 15,
+    fill: "url(#paint0_linear_806_552)",
+    fillOpacity: 0.2
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: 1,
+    y: 1,
+    width: 113,
+    height: 48,
+    rx: 16,
+    stroke: "url(#paint1_linear_806_552)",
+    strokeWidth: 2
+  }))), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M29.4796 33V16.9H34.8156C35.9272 16.9 36.9661 17.1108 37.9321 17.5325C38.9057 17.9465 39.7606 18.5253 40.4966 19.269C41.2402 20.005 41.8191 20.8598 42.2331 21.8335C42.6547 22.7995 42.8656 23.8383 42.8656 24.95C42.8656 26.0617 42.6547 27.1043 42.2331 28.078C41.8191 29.044 41.2402 29.8988 40.4966 30.6425C39.7606 31.3785 38.9057 31.9573 37.9321 32.379C36.9661 32.793 35.9272 33 34.8156 33H29.4796ZM32.2856 30.194H34.8156C35.5286 30.194 36.1994 30.0598 36.8281 29.7915C37.4644 29.5155 38.0241 29.1398 38.5071 28.6645C38.9901 28.1815 39.3696 27.6257 39.6456 26.997C39.9216 26.3607 40.0596 25.6783 40.0596 24.95C40.0596 24.2217 39.9216 23.5432 39.6456 22.9145C39.3696 22.2858 38.9901 21.73 38.5071 21.247C38.0241 20.764 37.4682 20.3883 36.8396 20.12C36.2109 19.844 35.5362 19.706 34.8156 19.706H32.2856V30.194ZM49.5618 16.9H52.7933L58.6468 33H55.6683L54.6333 30.148H47.7333L46.6983 33H43.7198L49.5618 16.9ZM48.7568 27.342H53.5983L51.1718 20.7065L48.7568 27.342ZM63.4155 38.75H60.6095V21.5H63.4155V22.9605C63.7912 22.4392 64.2512 22.0175 64.7955 21.6955C65.3475 21.3658 65.9915 21.201 66.7275 21.201C67.5708 21.201 68.3567 21.3582 69.085 21.6725C69.8133 21.9868 70.4535 22.4238 71.0055 22.9835C71.5652 23.5355 71.9983 24.1757 72.305 24.904C72.6193 25.6323 72.7765 26.4143 72.7765 27.25C72.7765 28.0857 72.6193 28.8715 72.305 29.6075C71.9983 30.3435 71.5652 30.9913 71.0055 31.551C70.4535 32.103 69.8133 32.5362 69.085 32.8505C68.3567 33.1648 67.5708 33.322 66.7275 33.322C65.9915 33.322 65.3475 33.161 64.7955 32.839C64.2512 32.5093 63.7912 32.0838 63.4155 31.5625V38.75ZM66.693 23.9035C66.1103 23.9035 65.589 24.0568 65.129 24.3635C64.669 24.6625 64.3087 25.065 64.048 25.571C63.7873 26.077 63.657 26.6367 63.657 27.25C63.657 27.8633 63.7873 28.4268 64.048 28.9405C64.3087 29.4465 64.669 29.8528 65.129 30.1595C65.589 30.4585 66.1103 30.608 66.693 30.608C67.2833 30.608 67.8238 30.4585 68.3145 30.1595C68.8052 29.8605 69.1962 29.458 69.4875 28.952C69.7788 28.4383 69.9245 27.871 69.9245 27.25C69.9245 26.6367 69.7788 26.077 69.4875 25.571C69.1962 25.065 68.8052 24.6625 68.3145 24.3635C67.8315 24.0568 67.291 23.9035 66.693 23.9035ZM77.8462 38.75H75.0402V21.5H77.8462V22.9605C78.2219 22.4392 78.6819 22.0175 79.2262 21.6955C79.7782 21.3658 80.4222 21.201 81.1582 21.201C82.0016 21.201 82.7874 21.3582 83.5157 21.6725C84.2441 21.9868 84.8842 22.4238 85.4362 22.9835C85.9959 23.5355 86.4291 24.1757 86.7357 24.904C87.0501 25.6323 87.2072 26.4143 87.2072 27.25C87.2072 28.0857 87.0501 28.8715 86.7357 29.6075C86.4291 30.3435 85.9959 30.9913 85.4362 31.551C84.8842 32.103 84.2441 32.5362 83.5157 32.8505C82.7874 33.1648 82.0016 33.322 81.1582 33.322C80.4222 33.322 79.7782 33.161 79.2262 32.839C78.6819 32.5093 78.2219 32.0838 77.8462 31.5625V38.75ZM81.1237 23.9035C80.5411 23.9035 80.0197 24.0568 79.5597 24.3635C79.0997 24.6625 78.7394 25.065 78.4787 25.571C78.2181 26.077 78.0877 26.6367 78.0877 27.25C78.0877 27.8633 78.2181 28.4268 78.4787 28.9405C78.7394 29.4465 79.0997 29.8528 79.5597 30.1595C80.0197 30.4585 80.5411 30.608 81.1237 30.608C81.7141 30.608 82.2546 30.4585 82.7452 30.1595C83.2359 29.8605 83.6269 29.458 83.9182 28.952C84.2096 28.4383 84.3552 27.871 84.3552 27.25C84.3552 26.6367 84.2096 26.077 83.9182 25.571C83.6269 25.065 83.2359 24.6625 82.7452 24.3635C82.2622 24.0568 81.7217 23.9035 81.1237 23.9035Z",
+    fill: "#00E0FF"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("filter", {
+    id: "filter0_b_806_552",
+    x: -50,
+    y: -50,
+    width: 215,
+    height: 150,
+    filterUnits: "userSpaceOnUse",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/React.createElement("feFlood", {
+    floodOpacity: 0,
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/React.createElement("feGaussianBlur", {
+    in: "BackgroundImageFix",
+    stdDeviation: 25
+  }), /*#__PURE__*/React.createElement("feComposite", {
+    in2: "SourceAlpha",
+    operator: "in",
+    result: "effect1_backgroundBlur_806_552"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "effect1_backgroundBlur_806_552",
+    result: "shape"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_806_552",
+    x1: 59.263,
+    y1: 2,
+    x2: 59.263,
+    y2: 68.9505,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white",
+    stopOpacity: 0.6
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#737373",
+    stopOpacity: 0.05
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_806_552",
+    x1: 57.5,
+    y1: 2,
+    x2: 57.5,
+    y2: 48,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#E7E7E7",
+    stopOpacity: 0.7
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#666666",
+    stopOpacity: 0.2
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgDappicon);
+export default __webpack_public_path__ + "static/media/dappicon.c67f5da7f9b4a77f3ab13bd5c85bfc44.svg";
+export { ForwardRef as ReactComponent };

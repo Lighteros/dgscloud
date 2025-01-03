@@ -1,0 +1,115 @@
+var _g, _path, _path2, _path3, _path4, _path5, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgDocument2(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 83,
+    height: 83,
+    viewBox: "0 0 83 83",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    filter: "url(#filter0_b_919_601)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 1,
+    y: 1,
+    width: 81,
+    height: 81,
+    rx: 15,
+    fill: "url(#paint0_linear_919_601)",
+    fillOpacity: 0.2
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: 0.5,
+    y: 0.5,
+    width: 82,
+    height: 82,
+    rx: 15.5,
+    stroke: "url(#paint1_linear_919_601)"
+  }))), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M26 45L70 45",
+    stroke: "#17FFD5",
+    strokeWidth: 2,
+    strokeLinecap: "round"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M14 55H70",
+    stroke: "#17FFD5",
+    strokeWidth: 2,
+    strokeLinecap: "round"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M14 65H70",
+    stroke: "#17FFD5",
+    strokeWidth: 2,
+    strokeLinecap: "round"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M17.4956 20.4799C17.3003 20.6752 16.9836 20.6752 16.7884 20.4799L14.2168 17.9076C14.0215 17.7124 14.0215 17.3958 14.2168 17.2006L14.6024 16.8149C14.7977 16.6197 15.1142 16.6197 15.3095 16.8149L16.7884 18.2932C16.9837 18.4885 17.3002 18.4884 17.4955 18.2932L21.159 14.629C21.3542 14.4337 21.6708 14.4337 21.8661 14.629L22.2524 15.0153C22.4476 15.2105 22.4477 15.5271 22.2524 15.7224L17.4956 20.4799Z",
+    fill: "#17FFD5"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M10 17.5C10 12.8057 13.8057 9 18.5 9C23.1943 9 27 12.8057 27 17.5C27 22.1943 23.1943 26 18.5 26C13.8057 26 10 22.1943 10 17.5ZM18.5 24.4545C17.5867 24.4545 16.6824 24.2747 15.8386 23.9252C14.9948 23.5757 14.2282 23.0634 13.5824 22.4176C12.9366 21.7718 12.4243 21.0052 12.0748 20.1614C11.7253 19.3176 11.5455 18.4133 11.5455 17.5C11.5455 16.5867 11.7253 15.6824 12.0748 14.8386C12.4243 13.9948 12.9366 13.2282 13.5824 12.5824C14.2282 11.9366 14.9948 11.4243 15.8386 11.0748C16.6824 10.7253 17.5867 10.5455 18.5 10.5455C20.3445 10.5455 22.1134 11.2782 23.4176 12.5824C24.7218 13.8866 25.4545 15.6555 25.4545 17.5C25.4545 19.3445 24.7218 21.1134 23.4176 22.4176C22.1134 23.7218 20.3445 24.4545 18.5 24.4545Z",
+    fill: "#17FFD5"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("filter", {
+    id: "filter0_b_919_601",
+    x: -50,
+    y: -50,
+    width: 183,
+    height: 183,
+    filterUnits: "userSpaceOnUse",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/React.createElement("feFlood", {
+    floodOpacity: 0,
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/React.createElement("feGaussianBlur", {
+    in: "BackgroundImageFix",
+    stdDeviation: 25
+  }), /*#__PURE__*/React.createElement("feComposite", {
+    in2: "SourceAlpha",
+    operator: "in",
+    result: "effect1_backgroundBlur_919_601"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "effect1_backgroundBlur_919_601",
+    result: "shape"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_919_601",
+    x1: 42.7865,
+    y1: 1.00001,
+    x2: 42.7865,
+    y2: 118.891,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white",
+    stopOpacity: 0.6
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#737373",
+    stopOpacity: 0.05
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_919_601",
+    x1: 41.5,
+    y1: 1,
+    x2: 41.5,
+    y2: 82,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#E7E7E7",
+    stopOpacity: 0.7
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#666666",
+    stopOpacity: 0.2
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgDocument2);
+export default __webpack_public_path__ + "static/media/Document2.df743926eb3af849ab9df141741888d5.svg";
+export { ForwardRef as ReactComponent };

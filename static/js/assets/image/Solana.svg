@@ -1,0 +1,32 @@
+var _circle, _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgSolana(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 54,
+    height: 54,
+    viewBox: "0 0 54 54",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 27,
+    cy: 27,
+    r: 27,
+    fill: "white"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M27 0C12.0273 0 0 12.0273 0 27C0 41.9727 12.0273 54 27 54C41.9727 54 54 41.9727 54 27C54 12.0273 41.9727 0 27 0ZM35.3455 40.5H12.2727L18.6545 33.1364H41.7273L35.3455 40.5ZM18.6545 30.6818L12.2727 23.3182H35.3455L41.7273 30.6818H18.6545ZM35.3455 20.8636H12.2727L18.6545 13.5H41.7273L35.3455 20.8636Z",
+    fill: "#9945FE"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgSolana);
+export default __webpack_public_path__ + "static/media/Solana.61cc4d191027e3780cccd59716cc2524.svg";
+export { ForwardRef as ReactComponent };

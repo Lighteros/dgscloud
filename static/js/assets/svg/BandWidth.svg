@@ -1,0 +1,75 @@
+var _path, _path2, _path3, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgBandWidth(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 50,
+    height: 43,
+    viewBox: "0 0 50 43",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M31.1326 24.6739C30.5806 24.1219 29.6974 24.1219 29.2006 24.6739L25.1159 28.7586C24.5639 29.3106 24.5639 30.1938 25.1159 30.6906C25.6679 31.2426 26.5511 31.2426 27.0479 30.6906L28.8142 28.9242V41.62C28.8142 42.3928 29.4214 43 30.1942 43C30.967 43 31.5742 42.3928 31.5742 41.62V28.9242L33.3406 30.6906C33.6165 30.9666 33.9477 31.077 34.3341 31.077C34.7205 31.077 35.0517 30.9666 35.3277 30.6906C35.8797 30.1386 35.8797 29.2554 35.3277 28.7586L31.1326 24.6739Z",
+    fill: "url(#paint0_linear_507_30)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M22.6316 36.5967L20.8652 38.3631V25.6673C20.8652 24.8945 20.258 24.2874 19.4852 24.2874C18.7124 24.2874 18.1052 24.8945 18.1052 25.6673V38.3631L16.3389 36.5967C15.7869 36.0447 14.9037 36.0447 14.4069 36.5967C13.8549 37.1487 13.8549 38.0319 14.4069 38.5287L18.4916 42.6134C18.7676 42.8894 19.0988 42.9998 19.4852 42.9998C19.8716 42.9998 20.2028 42.8894 20.4788 42.6134L24.5635 38.5287C25.1155 37.9767 25.1155 37.0935 24.5635 36.5967C24.0667 36.0447 23.1836 36.0447 22.6316 36.5967Z",
+    fill: "url(#paint1_linear_507_30)"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M43.1107 12.751C43.1107 12.5854 43.1107 12.3646 43.1107 12.199C43.1107 5.4647 37.646 0 30.9117 0C26.551 0 22.5214 2.37356 20.3687 6.12709C19.7615 6.01669 19.1543 5.96149 18.5471 5.96149C14.2968 5.96149 10.5433 8.55585 8.99768 12.4198C8.94248 12.4198 8.88728 12.4198 8.83209 12.4198C3.97457 12.4198 0.000244141 16.3941 0.000244141 21.3068C0.000244141 26.2195 3.97457 30.1939 8.88729 30.1939H10.4329C11.2056 30.1939 11.8128 29.5867 11.8128 28.8139C11.8128 28.0411 11.2056 27.4339 10.4329 27.4339H8.88729C5.52015 27.4339 2.76019 24.674 2.76019 21.3068C2.76019 17.9397 5.52015 15.1797 8.88729 15.1797C9.21848 15.1797 9.49447 15.1797 9.77047 15.2349C10.4881 15.3453 11.1504 14.9037 11.316 14.2413C12.1992 10.9846 15.18 8.72144 18.5471 8.72144C19.3199 8.72144 20.0375 8.83184 20.6999 9.05264C21.3623 9.27343 22.0798 8.94224 22.3558 8.27985C23.9014 4.91271 27.2686 2.75995 30.9117 2.75995C36.1004 2.75995 40.3507 7.01027 40.3507 12.199C40.3507 12.6958 40.2955 13.1926 40.2403 13.6342C40.1851 14.0206 40.2955 14.4069 40.5163 14.6829C40.7371 14.9589 41.0683 15.1797 41.4547 15.2349C44.5458 15.5661 46.9194 18.1605 46.9194 21.3068C46.9194 24.674 44.1595 27.4339 40.7923 27.4339H39.2467C38.474 27.4339 37.8668 28.0411 37.8668 28.8139C37.8668 29.5867 38.474 30.1939 39.2467 30.1939H40.7923C45.705 30.1939 49.6794 26.2195 49.6794 21.3068C49.6794 17.2221 46.9194 13.7446 43.1107 12.751Z",
+    fill: "url(#paint2_linear_507_30)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_507_30",
+    x1: 30.2218,
+    y1: 24.2599,
+    x2: 30.2218,
+    y2: 43,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#17FFD5",
+    stopOpacity: 0.7
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#17FFD5",
+    stopOpacity: 0.05
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_507_30",
+    x1: 19.4852,
+    y1: 24.2874,
+    x2: 19.4852,
+    y2: 42.9998,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#17FFD5",
+    stopOpacity: 0.7
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#17FFD5",
+    stopOpacity: 0.05
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint2_linear_507_30",
+    x1: 24.8398,
+    y1: 0,
+    x2: 24.8398,
+    y2: 30.1939,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#17FFD5",
+    stopOpacity: 0.7
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#17FFD5",
+    stopOpacity: 0.05
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgBandWidth);
+export default __webpack_public_path__ + "static/media/BandWidth.62d2d74cac55791395812f47d64b4c19.svg";
+export { ForwardRef as ReactComponent };

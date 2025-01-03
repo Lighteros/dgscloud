@@ -1,0 +1,61 @@
+.dapp-body {
+  background-image: url("../assets/image/Background-dapp.png");
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: rgb(85, 85, 85);
+    background: linear-gradient(180deg, rgba(85, 85, 85, 1) 0%, rgba(47, 47, 47, 1) 50%, rgba(73, 73, 73, 1) 100%); */
+}
+
+.dapp-body .text-coming {
+  background: rgb(124, 202, 227);
+  background: linear-gradient(
+    180deg,
+    rgba(124, 202, 227, 1) 0%,
+    rgba(86, 149, 172, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dapp-body .grad-corner {
+  background: rgb(91, 3, 160);
+  background: linear-gradient(
+    90deg,
+    rgba(91, 3, 160, 1) 0%,
+    rgba(23, 255, 213, 1) 50%,
+    rgba(0, 133, 255, 1) 100%
+  );
+}
+
+.css-ta84vm-MuiAccordionDetails-root {
+  border-top: none !important;
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+  border-radius: 8px !important;
+}
+
+.responsive-grid {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .responsive-grid {
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .responsive-grid {
+    grid-template-columns: 1fr !important;
+
+    .span2 {
+      grid-column: span 1 / span 1 !important;
+      max-width: 100%;
+    }
+  }
+  .map-image {
+    margin-block: 9rem;
+  }
+}

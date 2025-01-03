@@ -1,0 +1,41 @@
+var _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgUsers(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 36,
+    height: 41,
+    viewBox: "0 0 36 41",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M31.7766 41C31.7766 41 35.2766 41 35.2766 37.5833C35.2766 34.1667 31.7766 23.9167 17.7766 23.9167C3.77661 23.9167 0.276611 34.1667 0.276611 37.5833C0.276611 41 3.77661 41 3.77661 41H31.7766ZM3.85361 37.5833L3.77661 37.5697C3.78011 36.6677 4.36111 34.0505 6.43661 31.693C8.36861 29.4824 11.7636 27.3333 17.7766 27.3333C23.7861 27.3333 27.1811 29.4858 29.1166 31.693C31.1921 34.0505 31.7696 36.6711 31.7766 37.5697L31.7486 37.5765L31.6996 37.5833H3.85361ZM17.7766 17.0833C19.6331 17.0833 21.4136 16.3634 22.7264 15.0819C24.0391 13.8004 24.7766 12.0623 24.7766 10.25C24.7766 8.43769 24.0391 6.6996 22.7264 5.4181C21.4136 4.13661 19.6331 3.41667 17.7766 3.41667C15.9201 3.41667 14.1396 4.13661 12.8269 5.4181C11.5141 6.6996 10.7766 8.43769 10.7766 10.25C10.7766 12.0623 11.5141 13.8004 12.8269 15.0819C14.1396 16.3634 15.9201 17.0833 17.7766 17.0833ZM28.2766 10.25C28.2766 11.596 28.005 12.9289 27.4774 14.1725C26.9497 15.4161 26.1763 16.546 25.2012 17.4978C24.2262 18.4496 23.0687 19.2047 21.7948 19.7198C20.5209 20.2349 19.1555 20.5 17.7766 20.5C16.3977 20.5 15.0324 20.2349 13.7584 19.7198C12.4845 19.2047 11.327 18.4496 10.352 17.4978C9.37697 16.546 8.60355 15.4161 8.07588 14.1725C7.5482 12.9289 7.27661 11.596 7.27661 10.25C7.27661 7.53153 8.38286 4.9244 10.352 3.00216C12.3211 1.07991 14.9918 0 17.7766 0C20.5614 0 23.2321 1.07991 25.2012 3.00216C27.1704 4.9244 28.2766 7.53153 28.2766 10.25Z",
+    fill: "url(#paint0_linear_507_44)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_507_44",
+    x1: 17.7766,
+    y1: 0,
+    x2: 17.7766,
+    y2: 41,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#17FFD5",
+    stopOpacity: 0.7
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#17FFD5",
+    stopOpacity: 0.05
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgUsers);
+export default __webpack_public_path__ + "static/media/Users.b48e4da1e6d117e558e68055e091f65b.svg";
+export { ForwardRef as ReactComponent };
