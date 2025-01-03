@@ -18,7 +18,7 @@ function Footer() {
                         <div className='flex items-start flex-col gap-1 mt-4'>
                             <a className='w-fit hover:border-b-white border border-transparent duration-150' href='https://t.me'>Telegram</a>
                             <a className='w-fit hover:border-b-white border border-transparent duration-150' href='https://x.com'>Twitter</a>                            
-                            <a className='w-fit hover:border-b-white border border-transparent duration-150' href='https://docs-gitbook.dcicloud.ai/'>Documentation</a>
+                            <a className='w-fit hover:border-b-white border border-transparent duration-150' href='https://mighty-2.gitbook.io/dgs-decentralized-global-storage'>Documentation</a>
                         </div>
                     </div>
                 </div>

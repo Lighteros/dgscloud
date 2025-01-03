@@ -80,13 +80,6 @@ export default function Navbar2() {
         </ListItem>
         <ListItem disablePadding>
           <ListItemButton>
-            <a href={Pdf} download="DCI - Whitepaper.pdf">
-              Whitepaper
-            </a>
-          </ListItemButton>
-        </ListItem>
-        <ListItem disablePadding>
-          <ListItemButton>
             <a href="/dashboard">Dashboard</a>
           </ListItemButton>
         </ListItem>
@@ -121,9 +114,6 @@ export default function Navbar2() {
         <a href="/#about">About</a>
         <a href="/#roadmap">Roadmap</a>
         <a href="/service">Services</a>
-        <a href={Pdf} download="DCI - Whitepaper.pdf">
-          Whitepaper
-        </a>
         <a href="/dashboard">Dashboard</a>
       </div>
       <a

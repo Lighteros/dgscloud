@@ -35,7 +35,7 @@ function Footer() {
               </a>
               <a
                 className="w-fit hover:border-b-white border border-transparent duration-150"
-                href="https://docs-gitbook.dcicloud.ai/"
+                href="https://mighty-2.gitbook.io/dgs-decentralized-global-storage"
               >
                 Documentation
               </a>
