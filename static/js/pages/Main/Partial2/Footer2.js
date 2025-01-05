@@ -23,19 +23,19 @@ function Footer() {
             <div className="flex items-start flex-col gap-1 mt-4">
               <a
                 className="w-fit hover:border-b-white border border-transparent duration-150"
-                href="https://t.me"
+                href="https://t.me/DGS_Cloud"
               >
                 Telegram
               </a>
               <a
                 className="w-fit hover:border-b-white border border-transparent duration-150"
-                href="https://x.com"
+                href="https://x.com/DGS_Cloud"
               >
                 Twitter
               </a>
               <a
                 className="w-fit hover:border-b-white border border-transparent duration-150"
-                href="https://mighty-2.gitbook.io/dgs-decentralized-global-storage"
+                href="https://docs.dgscloud.pro/"
               >
                 Documentation
               </a>
@@ -59,13 +59,13 @@ function Footer() {
           <div className="flex items-center gap-3">
             <a
               className="w-fit hover:bg-white hover:text-black rounded-full p-1 duration-150"
-              href="https://x.com/dcicloudai"
+              href="https://x.com/DGS_Cloud"
             >
               <XIcon />
             </a>
             <a
               className="w-fit hover:bg-white hover:text-black rounded-full p-1 duration-150"
-              href="https://t.me/DCI_AI"
+              href="https://t.me/DGS_Cloud"
             >
               <TelegramIcon style={{ width: 30, height: 30 }} />
             </a>

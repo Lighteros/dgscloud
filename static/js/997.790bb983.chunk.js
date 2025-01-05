@@ -34,19 +34,19 @@
                           (0, o.jsx)("a", {
                             className:
                               "w-fit hover:border-b-white border border-transparent duration-150",
-                            href: "https://t.me",
+                            href: "https://t.me/DGS_Cloud",
                             children: "Telegram",
                           }),
                           (0, o.jsx)("a", {
                             className:
                               "w-fit hover:border-b-white border border-transparent duration-150",
-                            href: "https://x.com",
+                            href: "https://x.com/DGS_Cloud",
                             children: "Twitter",
                           }),    
                           (0, o.jsx)("a", {
                             className:
                               "w-fit hover:border-b-white border border-transparent duration-150",
-                            href: "https://mighty-2.gitbook.io/dgs-decentralized-global-storage",
+                            href: "https://docs.dgscloud.pro/",
                             children: "Documentation",
                           }),
                         ],
@@ -95,13 +95,13 @@
                       (0, o.jsx)("a", {
                         className:
                           "w-fit hover:bg-white hover:text-black rounded-full p-1 duration-150",
-                        href: "https://x.com",
+                        href: "https://x.com/DGS_Cloud",
                         children: (0, o.jsx)(l.A, {}),
                       }),
                       (0, o.jsx)("a", {
                         className:
                           "w-fit hover:bg-white hover:text-black rounded-full p-1 duration-150",
-                        href: "https://t.me",
+                        href: "https://t.me/DGS_Cloud",
                         children: (0, o.jsx)(c.A, {
                           style: { width: 30, height: 30 },
                         }),
@@ -290,15 +290,19 @@
                     (0, o.jsxs)("div", {
                       className: "flex items-center justify-center",
                       children: [
-                        (0, o.jsx)("button", {
+                        (0, o.jsx)("a", {
+                          href: 'https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000',
+                          target: "_blank",
                           className:
-                            "w-[140px] hover:text-[#00E0FF] text-[#71A3CE] text-xl py-[0.5rem] before:rounded-[20px] after:rounded-[20px] !rounded-[20px] px-[1rem] !bg-gradient-to-b !from-[#FFFFFF1F] !to-[#73737303] border-gradient",
-                          children: "Community",
+                            "w-[140px] hover:text-[#00E0FF] text-[#71A3CE] text-center text-xl py-[0.5rem] before:rounded-[20px] after:rounded-[20px] !rounded-[20px] px-[1rem] !bg-gradient-to-b !from-[#FFFFFF1F] !to-[#73737303] border-gradient",
+                          children: "Buy Now",
                         }),
-                        (0, o.jsx)("button", {
+                        (0, o.jsx)("a", {
+                          href: 'https://www.dextools.io/app/en/ether/pool-explorer/0x',
+                          target: "_blank",
                           className:
-                            "w-[140px] hover:text-[#00E0FF] text-[#71A3CE] text-xl py-[0.5rem] before:rounded-[20px] after:rounded-[20px] !rounded-[20px] px-[1rem] !bg-gradient-to-b !from-[#FFFFFF1F] !to-[#73737303] border-gradient",
-                          children: "Platform",
+                            "w-[140px] hover:text-[#00E0FF] text-[#71A3CE] text-center text-xl py-[0.5rem] before:rounded-[20px] after:rounded-[20px] !rounded-[20px] px-[1rem] !bg-gradient-to-b !from-[#FFFFFF1F] !to-[#73737303] border-gradient",
+                          children: "Chart",
                         }),
                       ],
                     }),

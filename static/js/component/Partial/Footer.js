@@ -16,9 +16,9 @@ function Footer() {
                     <div className='flex flex-col items-start'>
                         <span className='text-[24px] font-bold'>Support</span>
                         <div className='flex items-start flex-col gap-1 mt-4'>
-                            <a className='w-fit hover:border-b-white border border-transparent duration-150' href='https://t.me'>Telegram</a>
+                            <a className='w-fit hover:border-b-white border border-transparent duration-150' href='https://t.me/DGS_Cloud'>Telegram</a>
                             <a className='w-fit hover:border-b-white border border-transparent duration-150' href='https://x.com'>Twitter</a>                            
-                            <a className='w-fit hover:border-b-white border border-transparent duration-150' href='https://mighty-2.gitbook.io/dgs-decentralized-global-storage'>Documentation</a>
+                            <a className='w-fit hover:border-b-white border border-transparent duration-150' href='https://docs.dgscloud.pro/'>Documentation</a>
                         </div>
                     </div>
                 </div>
@@ -41,10 +41,10 @@ function Footer() {
                                 <Coingecko className='w-5 h-5'/>
                             </a>
                         </div>
-                        <a className='w-fit hover:bg-white hover:text-black rounded-full p-1 duration-150' href='https://x.com/dcicloudai'>
+                        <a className='w-fit hover:bg-white hover:text-black rounded-full p-1 duration-150' href='https://x.com/DGS_Cloud'>
                             <XIcon />
                         </a>
-                        <a className='w-fit hover:bg-white hover:text-black rounded-full p-1 duration-150' href='https://t.me/DCI_AI'>
+                        <a className='w-fit hover:bg-white hover:text-black rounded-full p-1 duration-150' href='https://t.me/DGS_Cloud'>
                             <TelegramIcon style={{ width : 30, height :30 }} />
                         </a>
                     </div>
