@@ -86,7 +86,7 @@ export default function Navbar2() {
         <ListItem key={1} disablePadding>
           <ListItemButton>
             <a
-              href="https://app-dgscloud.vercel.app/"
+              href="https://app.dgscloud.pro"
               className="!m-0 text-[#00E0FF] !py-[5px] !bg-gradient-to-b !from-[#FFFFFF1F] !to-[#73737303] border-gradient"
             >
               Dapp
@@ -117,7 +117,7 @@ export default function Navbar2() {
         <a href="/dashboard">Dashboard</a>
       </div>
       <a
-        href="https://app-dgscloud.vercel.app/"
+        href="https://app.dgscloud.pro"
         className="!m-0 hidden mdl:block hover:text-[#00E0FF] text-lg text-white !py-[5px] !bg-gradient-to-b !from-[#FFFFFF1F] !to-[#73737303] border-gradient"
         target="_blank"
         rel="noreferrer"

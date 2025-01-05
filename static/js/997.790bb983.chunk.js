@@ -898,8 +898,8 @@
                             (0, o.jsx)("a", {
                               className:
                                 "bg-[#09B092] px-4 py-2 rounded-[10px] relative z-20 w-fit text-[#101F2D] font-bold",
-                              href: "https://app-dgscloud.vercel.app/",
-                              children: "https://app-dgscloud.vercel.app/",
+                              href: "https://app.dgscloud.pro",
+                              children: "https://app.dgscloud.pro",
                             }),
                             (0, o.jsx)("p", {
                               className: "text-[#71A3CE]",

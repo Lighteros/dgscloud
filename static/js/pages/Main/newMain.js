@@ -460,9 +460,9 @@ export default function newMain() {
               </h2>
               <a
                 className="bg-[#09B092] px-4 py-2 rounded-[10px] relative z-20 w-fit text-[#101F2D] font-bold"
-                href="https://app-dgscloud.vercel.app/"
+                href="https://app.dgscloud.pro"
               >
-                https://app-dgscloud.vercel.app/
+                https://app.dgscloud.pro
               </a>
               <p className="text-[#71A3CE]">
                 Access DGS dApps. It can be accessed through a website or mobile
