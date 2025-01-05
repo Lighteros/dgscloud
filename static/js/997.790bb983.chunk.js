@@ -298,7 +298,7 @@
                           children: "Buy Now",
                         }),
                         (0, o.jsx)("a", {
-                          href: 'https://www.dextools.io/app/en/ether/pool-explorer/0x',
+                          href: 'https://www.dextools.io/app/en/ether/pair-explorer/0x9bdc802a37c79a03b59288a7450889410e696b91',
                           target: "_blank",
                           className:
                             "w-[140px] hover:text-[#00E0FF] text-[#71A3CE] text-center text-xl py-[0.5rem] before:rounded-[20px] after:rounded-[20px] !rounded-[20px] px-[1rem] !bg-gradient-to-b !from-[#FFFFFF1F] !to-[#73737303] border-gradient",
