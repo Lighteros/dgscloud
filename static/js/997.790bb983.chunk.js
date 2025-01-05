@@ -291,7 +291,7 @@
                       className: "flex items-center justify-center",
                       children: [
                         (0, o.jsx)("a", {
-                          href: 'https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000',
+                          href: 'https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x90Bc1E0F9b4701C403e4d5655b6f1e79De0e70A0',
                           target: "_blank",
                           className:
                             "w-[140px] hover:text-[#00E0FF] text-[#71A3CE] text-center text-xl py-[0.5rem] before:rounded-[20px] after:rounded-[20px] !rounded-[20px] px-[1rem] !bg-gradient-to-b !from-[#FFFFFF1F] !to-[#73737303] border-gradient",
